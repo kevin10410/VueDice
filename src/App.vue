@@ -22,16 +22,16 @@ export default {
   data() {
     return {
       number: "",
-      showNumber:"",
+      showNumber: ""
     };
   },
   methods: {
     rowDice() {
       let number = Math.floor(Math.random() * 6 + 1);
       this.number = number;
-      setTimeout(()=>{
+      setTimeout(() => {
         this.showNumber = number;
-      }, 2000)
+      }, 2000);
       // console.log(this.number);
     }
   },
@@ -79,7 +79,9 @@ export default {
 }
 
 .row {
-  height: 30px;
+  font-size: 20px;
+  width: 75px;
+  height: 50px;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -100,15 +102,12 @@ export default {
 }
 
 .drop-enter {
- 
 }
 
 .drop-enter-active {
-  
 }
 
 .drop-leave {
-  
 }
 
 .drop-leave-active {
