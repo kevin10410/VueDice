@@ -80,7 +80,7 @@ export default {
 
 .row {
   font-size: 20px;
-  width: 75px;
+  padding: 0 25px;
   height: 50px;
   position: absolute;
   top: 20px;
