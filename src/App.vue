@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <button class="row" @click="rowDice">Row!</button>
+    <button class="row" @click="rowDice">Roll!</button>
     <transition name="drop">
       <component :is="point" :point="number"></component>
     </transition>
